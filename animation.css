@@ -1,0 +1,175 @@
+/* Navbar Animation */
+
+.border-animation::after {
+    content: '';
+    width: 0%;
+    height: 2.5px;
+    background-color: #e30022;
+    position: relative;
+    display: block;
+    top: 2.5px;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.border-animation:hover::after {
+    width: 100%;
+}
+
+/* Button Animation */
+
+.btn-sub1:hover {
+    background-color: transparent;
+    padding-right: 25px;
+}
+
+.fa-angle-right {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.btn-sub2:hover {
+    border: 1px solid #edf2f4;
+    background-color: #352c31;
+}
+
+.fa-angle-double-right {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+/* Pricing Animation */
+
+.content-3 .basic a:hover,
+.enterprise a:hover {
+    background-color: #e30022;
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 1024px) {
+    .basic .basic-border,
+    .enterprise .enterprise-border {
+        position: absolute;
+        background-color: #e30022;
+        transition: all 500ms ease;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+    }
+    .content-3 .basic .basic-border:nth-child(1) {
+        top: 0%;
+        left: 15px;
+        width: 1px;
+        height: 1px;
+    }
+    .content-3 .basic .basic-border:nth-child(2) {
+        top: 0%;
+        left: 15px;
+        width: 1px;
+        height: 1px;
+    }
+    .content-3 .basic .basic-border:nth-child(3) {
+        bottom: 0%;
+        right: 15px;
+        width: 1px;
+        height: 1px;
+    }
+    .content-3 .basic .basic-border:nth-child(4) {
+        bottom: 0%;
+        right: 15px;
+        width: 1px;
+        height: 1px;
+    }
+    .content-3 .enterprise .enterprise-border:nth-child(1) {
+        top: 0%;
+        left: 15px;
+        width: 1px;
+        height: 1px;
+    }
+    .content-3 .enterprise .enterprise-border:nth-child(2) {
+        top: 0%;
+        left: 15px;
+        width: 1px;
+        height: 1px;
+    }
+    .content-3 .enterprise .enterprise-border:nth-child(3) {
+        bottom: 0%;
+        right: 15px;
+        width: 1px;
+        height: 1px;
+    }
+    .content-3 .enterprise .enterprise-border:nth-child(4) {
+        bottom: 0%;
+        right: 15px;
+        width: 1px;
+        height: 1px;
+    }
+    .pro .pro-span {
+        position: absolute;
+        background-color: #e30022;
+        transition: all 500ms ease;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+    }
+    .pro .pro-span:nth-child(1) {
+        bottom: 35%;
+        right: 15px;
+        width: 1px;
+        height: 145px;
+    }
+    .pro .pro-span:nth-child(2) {
+        bottom: 35%;
+        left: 15px;
+        width: 1px;
+        height: 145px;
+    }
+}
+
+/* Members Animation */
+.content-5 .social-icon span:hover{
+    background-color: #e30022;
+    color: #ffffff;
+}
+
+/* Footer Section */
+footer span:hover{
+    color: #3f494c;
+    background-color: #ffffff;
+}
+
+.top a:hover{
+    color: #f7fff7;
+}
+
+/* Navigation Animation */
+.sticky{
+    background-color: #60baae;
+    padding: 0% 5%;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
